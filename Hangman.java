@@ -8,7 +8,7 @@ public class Hangman {
         Random random = new Random();
         String word;
         int wrongGuessCounter = 0;
-        Scanner sc = new Scanner("\"C:\\Users\\Kedi\\Desktop\\contacts.txt");
+        Scanner sc = new Scanner("\"C:\\Users\\Kedi\\Desktop\\words.txt");
         List<String> words = new ArrayList<>();
 
         while (sc.hasNext()) {
